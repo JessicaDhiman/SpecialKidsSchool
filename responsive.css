@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+@media only screen and (max-width:1325px){
+    .contact{
+        height:100%;
+    }
+    .conForm{
+        flex-direction: column;
+        width:100%;
+        margin:0;
+        padding:1rem;
+    }
+    .contactForm{
+        width:97%;
+    }
+    .sclInfo h2{
+        display: block;
+        margin:0;
+    }
+    .sclInfo{
+        bottom: 0;
+        width:100%
+    }
+
+
+}
+@media only screen and (max-width:1195px){
+    
+    .nav-list{
+        flex-direction: column;
+    }
+    .navbar{
+        flex-direction: column;
+        align-items: center;
+        height:28rem;
+        transition: all 0.7s ease-out;
+    }
+    .rightNav{
+        width: auto;
+    }
+    .burger{
+        display: block;
+    }
+    .h-nav{
+        height:72px;
+    }
+    .v-class{
+        opacity: 0;
+    }
+    #services{
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .flip-services{
+        flex-direction: column;
+    }
+    .flip3D > .front{
+        width:96%;
+        height:30rem;
+    }
+    .flip3D > .back{
+        width:96%;
+        height: 30rem;
+    }
+    .flip-services .box{
+        height:40vh;
+    }
+    .introBox{
+        padding: 1rem;
+    }
+    .grid-gallery{
+        display: grid;  
+        grid-template-columns: auto;     
+    }
+    .form-btn{
+        width:97%;
+    }
+     
+}
+@media only screen and (max-width:800px){
+    .flip-services .box{
+        height:50vh;
+    }
+}
+@media only screen and (max-width:550px){
+    .flip-services .box{
+        height:69vh;
+    }
+}
+@media only screen and (max-width:508px){
+    .flip-services .box{
+        height:60vh;
+    }
+}
+@media only screen and (max-width:508px){
+    .grid-gallery{
+        display: grid;  
+        grid-template-columns:auto 1fr; 
+    }
+    .conForm button{
+        width:93%;
+    }
+    .flip-services .box{
+        height:75vh;
+    }
+    .sclIntro .card .face{
+        width:90%;
+    }
+    .image-grid h1{
+        font-size: 3rem;
+    }
+}
+@media only screen and (max-width:420px){
+    .flip-services .box{
+        height:68vh;
+    }
+}
+@media only screen and (max-width:491px){
+    .sclIntro h1{
+        font-size: 2rem;
+    }
+}
+@media only screen and (max-width:360px){
+    .flip-services .box{
+        height:62vh;
+    }
+}
+@media only screen and (max-width:375px ){
+    .flip-services .box{
+        height:80vh;
+    }
+}
+@media only screen and (max-width:380px) and (min-width:375px ){
+    .flip-services .box{
+        height:74vh;
+    }
+}
+@media only screen and (max-width:320px){
+    .flip-services .box{
+        height:88vh;
+    }
+}
